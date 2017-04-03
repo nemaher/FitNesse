@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>MyTopLevelApplicationPage.Test</rootPath>
+    <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>java -cp /Users/NicholasMaher/Documents/FitNesseRoot/fitnesse-standalone.jar:/Users/NicholasMaher/Documents/FitNesseRoot/Libraries/SampleJarFile.jar:/Users/NicholasMaher/Documents/FitNesseRoot/Libraries/selenium-server-standalone-3.0.1.jar fit.FitServer Nicholass-MacBook-Pro.local 50421 3863</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr>Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 12298
+Only local connections are allowed.
+Mar 09, 2017 7:29:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Mar 09, 2017 7:29:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>227400</totalRunTimeInMillis>
+</testResults>
+

@@ -1,0 +1,19 @@
+|!-SamplePackage.FirstClass-!|                               |
+|comment                     |my first test             |    |
+|openChrome                  |!-http://www.google.com/-!|    |
+|pause                       |1                         |    |
+|enterText                   |googleSearchBox           |Dogs|
+|pause|3||
+|verifyElementPresent|googleLogo||
+|verifyElementPresent        |googleSearchButton        |    |
+|click                       |googleSearchButton        |    |
+|clear                       |googleSearchBox           |    |
+|pause                       |1                         |    |
+|navigateBack                |                          |    |
+|pause                       |3                         |    |
+|navigateForward             |                          |    |
+|refresh                     |                          |    |
+|pause                       |1                         |    |
+|verifyPageTitle             |Google                    |    |
+|closeChrome                 |                          |    |
+
