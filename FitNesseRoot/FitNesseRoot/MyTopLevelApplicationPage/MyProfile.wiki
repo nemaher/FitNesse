@@ -1,0 +1,9 @@
+---
+Test
+---
+|!-SamplePackage.FirstClass-!|                            |
+|comment                     |my first test              ||
+|openChrome                  |!-http://www.nemaher.com/-!||
+|pause                       |1                          ||
+|click                       |advancedCss                ||
+|closeChrome                 |                           ||
