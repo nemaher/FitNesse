@@ -5,5 +5,5 @@ Test
 |comment                     |my first test              ||
 |openChrome                  |!-http://www.nemaher.com/-!||
 |pause                       |1                          ||
-|click                       |advancedCss                ||
+|click                       |advanceCss                 ||
 |closeChrome                 |                           ||
