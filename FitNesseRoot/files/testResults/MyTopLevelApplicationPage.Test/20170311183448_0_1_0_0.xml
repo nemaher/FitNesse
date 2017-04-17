@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>MyTopLevelApplicationPage.Test</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>1</wrong>
+      <ignores>0</ignores>
+      <exceptions>3</exceptions>
+    </counts>
+    <date>2017-03-11T18:35:03-06:00</date>
+    <runTimeInMillis>12</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;SamplePackage.FirstClass&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Openchrome&lt;/td&gt;
+		&lt;td colspan="2"&gt;http://www.google.com/&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;pause&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;enterText&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"googleSearchBox"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 44 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:48:19 -0700'
+System info: host: 'Nicholass-MacBook-Pro.local', ip: '100.68.239.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/nm/xv9p0kn16vjb4wh3_kbxh2280000gp/T/.org.chromium.Chromium.eTtPg9}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 0d7bf79e9bc8e535e12c97217cc0e0e8
+*** Element info: {Using=xpath, value=googleSearchBox}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at SamplePackage.FirstClass.enterText(FirstClass.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at fit.ActionFixture.doCells(ActionFixture.java:22)
+	at fit.Fixture.doRow(Fixture.java:168)
+	at fit.Fixture.doRows(Fixture.java:162)
+	at fit.Fixture.doTable(Fixture.java:156)
+	at fit.Fixture.interpretTables(Fixture.java:101)
+	at fit.Fixture.doTables(Fixture.java:81)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+		&lt;td&gt;googleSearchBox&lt;/td&gt;
+		&lt;td&gt;Dogs&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;elementPresent&lt;/td&gt;
+		&lt;td&gt;//body//div[@id="searchform"]//form[@action="/search"]//button[@value="Search"]&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;Click&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 19 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:48:19 -0700'
+System info: host: 'Nicholass-MacBook-Pro.local', ip: '100.68.239.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/nm/xv9p0kn16vjb4wh3_kbxh2280000gp/T/.org.chromium.Chromium.eTtPg9}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 0d7bf79e9bc8e535e12c97217cc0e0e8
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at SamplePackage.FirstClass.Click(FirstClass.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at fit.ActionFixture.doCells(ActionFixture.java:22)
+	at fit.Fixture.doRow(Fixture.java:168)
+	at fit.Fixture.doRows(Fixture.java:162)
+	at fit.Fixture.doTable(Fixture.java:156)
+	at fit.Fixture.interpretTables(Fixture.java:101)
+	at fit.Fixture.doTables(Fixture.java:81)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+		&lt;td&gt;//body//div[@id="searchform"]//form[@action="/search"]//button[@value="Search"]&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;pause&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;pageTitle&lt;/td&gt;
+		&lt;td&gt;google&lt;/td&gt;
+		&lt;td class="fail"&gt;Google&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;Click&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"test"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:48:19 -0700'
+System info: host: 'Nicholass-MacBook-Pro.local', ip: '100.68.239.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=/var/folders/nm/xv9p0kn16vjb4wh3_kbxh2280000gp/T/.org.chromium.Chromium.eTtPg9}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 0d7bf79e9bc8e535e12c97217cc0e0e8
+*** Element info: {Using=xpath, value=test}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at SamplePackage.FirstClass.Click(FirstClass.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at fit.ActionFixture.doCells(ActionFixture.java:22)
+	at fit.Fixture.doRow(Fixture.java:168)
+	at fit.Fixture.doRows(Fixture.java:162)
+	at fit.Fixture.doTable(Fixture.java:156)
+	at fit.Fixture.interpretTables(Fixture.java:101)
+	at fit.Fixture.doTables(Fixture.java:81)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+		&lt;td&gt;test&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;Closechrome&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;</content>
+    <relativePageName>Test</relativePageName>
+          </result>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>java -cp /Users/NicholasMaher/Documents/FitNesseRoot/fitnesse-standalone.jar:/Users/NicholasMaher/Documents/FitNesseRoot/Libraries/SampleJarFile.jar:/Users/NicholasMaher/Documents/FitNesseRoot/Libraries/selenium-server-standalone-3.0.1.jar fit.FitServer Nicholass-MacBook-Pro.local 49679 3863</command>
+    <exitCode>4</exitCode>
+    <stdOut></stdOut>
+    <stdErr>java.io.FileNotFoundException: xpath.properties (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at SamplePackage.FirstClass.&lt;init&gt;(FirstClass.java:27)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:61)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:82)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:43)
+	at fit.Fixture.loadFixture(Fixture.java:142)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:134)
+	at fit.Fixture.doTables(Fixture.java:79)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 27277
+Only local connections are allowed.
+Mar 11, 2017 6:34:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Mar 11, 2017 6:34:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>15158</totalRunTimeInMillis>
+</testResults>
+
