@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>MyTopLevelApplicationPage.Test</rootPath>
+    <result>
+    <counts>
+      <right>45</right>
+      <wrong>3</wrong>
+      <ignores>3</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2017-04-14T12:17:47-05:00</date>
+    <runTimeInMillis>3</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;SamplePackage.FirstClass&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;comment&lt;/td&gt;
+		&lt;td class="ignore"&gt;my first test&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;openChrome&lt;/td&gt;
+		&lt;td class="pass"&gt;http://www.google.com/&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;pause&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;enterText&lt;/td&gt;
+		&lt;td class="pass"&gt;googleSearchBox&lt;/td&gt;
+		&lt;td class="pass"&gt;Dogs&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;pause&lt;/td&gt;
+		&lt;td class="pass"&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;verifyElementPresent&lt;/td&gt;
+		&lt;td class="pass"&gt;googleLogo&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;verifyElementPresent&lt;/td&gt;
+		&lt;td class="pass"&gt;googleSearchButton&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;click&lt;/td&gt;
+		&lt;td class="pass"&gt;googleSearchButton&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;clear&lt;/td&gt;
+		&lt;td class="pass"&gt;googleSearchBox&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;pause&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;navigateBack&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;pause&lt;/td&gt;
+		&lt;td class="pass"&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;navigateForward&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;refresh&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;pause&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="fail"&gt;verifyPageTitle&lt;/td&gt;
+		&lt;td class="fail"&gt;Google&lt;/td&gt;
+		&lt;td class="fail"&gt;Dogs - Google Search&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;closeChrome&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;</content>
+    <relativePageName>Test</relativePageName>
+          </result>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>java -cp /Users/NicholasMaher/Documents/FitNesse/FitNesseRoot/fitnesse-standalone.jar:/Users/NicholasMaher/Documents/FitNesse/FitNesseRoot/Libraries/SampleJarFile.jar:/Users/NicholasMaher/Documents/FitNesse/FitNesseRoot/Libraries/selenium-server-standalone-3.0.1.jar fit.FitServer Nicholass-MacBook-Pro.local 49830 3863</command>
+    <exitCode>3</exitCode>
+    <stdOut>Properties Size: 4
+googleSearchBox: //body/div[@id="viewport"]/div[@id="searchform"]/form/div[2]//input[@title="Search"]
+googleSearchButton: //body//div[@id="searchform"]//form[@action="/search"]//button[@value="Search"]
+googleLogo: //div[@id="searchform"]/form[@role="search"]//div[@id="logocont"]//a[@id="logo"]/img
+advanceCss: //a[@href="Adv. CSS/index.html"]/img[@src="img/CSS3.jpg"]
+</stdOut>
+    <stdErr>Starting ChromeDriver 2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b) on port 32979
+Only local connections are allowed.
+Apr 14, 2017 12:17:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Apr 14, 2017 12:17:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>27174</totalRunTimeInMillis>
+</testResults>
+

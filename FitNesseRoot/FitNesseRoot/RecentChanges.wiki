@@ -1,6 +1,0 @@
-|MyTopLevelApplicationPage.MyProfile||14:57:40 Fri, Apr 14, 2017|
-|MyTopLevelApplicationPage.Test||10:09:16 Thu, Mar 30, 2017|
-|FrontPage||21:55:09 Thu, Mar 09, 2017|
-|MyTopLevelApplicationPage||14:20:29 Mon, Jan 30, 2017|
-|FrontPage.Test||11:43:19 Mon, Jan 30, 2017|
-|FrontPage.TestPage||11:42:49 Mon, Jan 30, 2017|
