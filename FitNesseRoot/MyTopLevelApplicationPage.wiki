@@ -3,6 +3,6 @@
 !define TEST_SYSTEM {fit}
 
 Class Path
-!path Libraries/*.jar
+!path FitNesseRoot/Libraries/*.jar
 #!path Libraries SampleJarFile.jar
 #!path Libraries selenium-server-standalone-3.0.1.jar
